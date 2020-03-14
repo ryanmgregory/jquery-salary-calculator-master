@@ -17,9 +17,28 @@ function submitEmployee(event) {
         lastName: $('.js-input-lastName').val(),
         idNumber: $('.js-input-employeeID').val(),
         title: $('.js-input-title').val(),
-        annualSalary: $('.js-input-salary').val(),
+        annualSalary: parseFloat($('.js-input-salary').val()),
     };
     employeeArray.push(employeeObject);
     console.log('Employees', employeeArray)
+    render();
 }
 
+function render() {
+    $('.js-table-body').empty();
+    let totalCost = 0;
+    for (let i = 0; i < employeeArray.length; i++) {
+        const individualEmployee = employeeArray[i];
+        $('.js-table-body').append(`
+        <tr>
+        <td>${individualEmployee.firstName}</td>
+        <td>${individualEmployee.lastName}</td>
+        <td>${individualEmployee.idNumber}</td>
+        <td>${individualEmployee.title}</td>
+        <td>$${individualEmployee.annualSalary}</td>
+        </tr>
+        `);
+    }
+
+    $('.js-total-cost').text('Kityu');
+}
