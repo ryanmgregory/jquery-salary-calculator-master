@@ -29,6 +29,7 @@ function render() {
     let totalCost = 0;
     for (let i = 0; i < employeeArray.length; i++) {
         const individualEmployee = employeeArray[i];
+        totalCost += individualEmployee.annualSalary;
         $('.js-table-body').append(`
         <tr>
         <td>${individualEmployee.firstName}</td>
@@ -40,5 +41,5 @@ function render() {
         `);
     }
 
-    $('.js-total-cost').text('Kityu');
+    $('.js-total-cost').text(totalCost);
 }
