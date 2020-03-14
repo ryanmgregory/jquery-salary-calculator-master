@@ -41,5 +41,5 @@ function render() {
         `);
     }
 
-    $('.js-total-cost').text(totalCost);
+    $('.js-total-cost').text(`$${totalCost}`);
 }
