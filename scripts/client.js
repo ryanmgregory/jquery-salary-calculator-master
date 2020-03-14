@@ -37,7 +37,7 @@ function render() {
         <td>${individualEmployee.idNumber}</td>
         <td>${individualEmployee.title}</td>
         <td>$${individualEmployee.annualSalary}</td>
-        <td><button>Delete Entry</td>
+        <td><button>Delete</td>
         </tr>
         `);
     }
