@@ -33,7 +33,7 @@ td {
   width: 650px;
 }
 
-.btn  {
+.btn {
   font-size: medium;
   background-color: rgb(217, 226, 217);
   border: black solid 1px;
@@ -58,3 +58,11 @@ td {
   padding: 5px 25px 5px 2px;
 }
 
+.js-btn-delete {
+  font-size: small;
+  background-color: rgb(217, 226, 217);
+  border: black solid 1px;
+  border-radius: 3px;
+  padding: 2px 20px;
+  cursor: pointer;
+}
