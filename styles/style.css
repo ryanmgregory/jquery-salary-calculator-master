@@ -4,15 +4,15 @@ body {
   font-weight: 400;
 }
 
-h1 {
+header {
   text-align: center;
   background: rgb(63, 164, 63);
   color: ghostwhite;
-  margin: 0px;
-  padding: 22px 15px 15px;
+  margin-bottom: 15px;
+  padding: 20px 0px 15px;
 }
 
-h2 {
+h1, h2 {
   margin-bottom: 15px;
 }
 
