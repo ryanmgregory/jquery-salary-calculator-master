@@ -11,48 +11,50 @@
 </head>
 
 <body>
+
   <!-- Header (Salary Calculator)-->
   <h1>Salary Calculator</h1>
+  <div class="container">
+    <!-- Form (Input Fields/Submit Btn for Employee)-->
+    <h2>Add Employee</h2>
+    <form class="js-employeeForm-add">
+      <input class="js-input-firstName" type="text" id="first" name="first" placeholder="First Name" />
+      <input class="js-input-lastName" type="text" id="last" name="last" placeholder="Last Name" />
+      <input class="js-input-employeeID" type="number" id="empID" name="empID" placeholder="ID" />
+      <input class="js-input-title" type="text" id="title" name="title" placeholder="Title" />
+      $<input class="js-input-salary" type="number" required id="salary" name="salary" placeholder="Annual Salary" />
+      <button type="submit">Submit Employee</button>
+    </form>
 
-  <!-- Form (Input Fields/Submit Btn for Employee)-->
-  <h2>Add Employee</h2>
-  <form class="js-employeeForm-add">
-    <input class="js-input-firstName" type="text" id="first" name="first" placeholder="First Name" />
-    <input class="js-input-lastName" type="text" id="last" name="last" placeholder="Last Name" />
-    <input class="js-input-employeeID" type="number" id="empID" name="empID" placeholder="ID" />
-    <input class="js-input-title" type="text" id="title" name="title" placeholder="Title" />
-    $<input class="js-input-salary" type="number" required id="salary" name="salary" placeholder="Annual Salary" />
-    <button type="submit">Submit Employee</button>
-  </form>
+    <!-- Table (First Name  Last Name  ID  Title  AnnualSalary)  -->
+    <h2>Employees</h2>
+    <table class="js-table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Annual Salary</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="js-table-body">
+        <tr class="js-table-body-rows">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
 
-  <!-- Table (First Name  Last Name  ID  Title  AnnualSalary)  -->
-  <h2>Employees</h2>
-  <table class="js-table">
-    <thead>
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>ID</th>
-        <th>Title</th>
-        <th>Annual Salary</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody class="js-table-body">
-      <tr class="js-table-body-rows">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- Display Total Monthly Cost-->
-  <div>
-    Total Monthly Cost: <span class="js-total-cost">$0</span>
+    <!-- Display Total Monthly Cost-->
+    <div class="total">
+      Total Monthly Cost: <span class="js-total-cost">$0</span>
+    </div>
   </div>
 </body>
 

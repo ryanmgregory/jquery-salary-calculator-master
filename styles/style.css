@@ -1,5 +1,40 @@
-// pretier-ignore
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
 
-form input {
-  /* display: inline-block; */
+h1 {
+  text-align: center;
+  background: rgb(63, 164, 63);
+  color: ghostwhite;
+  margin: 0px;
+  padding: 22px 15px 15px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+  table {
+  /* margin-left: 8px; */
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.container {
+  margin: 8px;
+  
+}
+
+.js-employeeForm-add {
+    /* padding: 10px; */
+} 
+
+.total {
+  float: right;
 }
