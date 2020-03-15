@@ -33,6 +33,8 @@ h1, h2 {
   float: right;
 }
 
+
+
 .vr {
   margin-bottom: 30px;
 }
@@ -45,3 +47,10 @@ h1, h2 {
   padding: 5px 25px 5px 2px;
 }
 
+.js-btn-delete {
+  font-size: small;
+  background-color: rgb(217, 226, 217);
+  border: black solid 1px;
+  border-radius: 4px;
+  padding: 2px 18px;
+}
