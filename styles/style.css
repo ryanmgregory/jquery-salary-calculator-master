@@ -20,7 +20,9 @@ h1, h2 {
 
 .container {
   margin: 10px;
+  width: 600px;
 }
+
 
 .vr {
   margin-bottom: 30px;
@@ -33,3 +35,4 @@ h1, h2 {
 .vr_children * {
   padding: 5px 25px 5px 2px;
 }
+
