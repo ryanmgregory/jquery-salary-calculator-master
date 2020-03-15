@@ -6,6 +6,17 @@ $(document).ready(init);
 
 function init() {
     $(".js-employeeForm-add").on('submit', submitEmployee);
+    $(".js-table-body").on('click', '.js-btn-delete', deleteEmployee);
+}
+
+function deleteEmployee() {
+    console.log('DELETE:', this);
+    // $(this).parent().parent().remove();
+    const employeeIndex = $(this).data('index');
+    console.log('deleted:', employeeIndex);
+    employeeArray.splice(employeeIndex, 1);
+
+    render();
 }
 
 function submitEmployee(event) {
@@ -37,7 +48,7 @@ function render() {
         <td>${individualEmployee.idNumber}</td>
         <td>${individualEmployee.title}</td>
         <td>$${individualEmployee.annualSalary}</td>
-        <td><button>Delete</td>
+        <td><button class="js-btn-delete" data-index="${i}">Delete Employee</td>
         </tr>
         `);
     }
