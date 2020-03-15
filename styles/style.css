@@ -15,11 +15,14 @@ header {
 
 h1, h2 {
   margin-bottom: 15px;
-  font-weight: 400;;
+  font-weight: 400;
 }
 
 .container {
   margin: 10px;
 }
 
+.vr {
+  margin-bottom: 30px;
+}
 
