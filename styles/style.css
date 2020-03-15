@@ -23,11 +23,17 @@ table, th, td {
   /* justify-content: left; */
 }
 
+
+
+
+
+
 td {
   padding: 5px 10px;
 }
-
-
+#salary_data {
+  padding: 5px 0px 10px 
+}
 
 .container {
   margin: 10px;
@@ -37,4 +43,9 @@ td {
   display: inline-block;
   float: right;
   padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  float: right;
 }
