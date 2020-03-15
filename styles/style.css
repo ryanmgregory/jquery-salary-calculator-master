@@ -13,28 +13,28 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 8px;
-}
-
-  table {
-  /* margin-left: 8px; */
-  border-collapse: collapse;
-  border: 1px solid black;
+  margin-bottom: 15px;
 }
 
 table, th, td {
   border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px 30px;
+  /* justify-content: left; */
 }
+
+td {
+  padding: 5px 10px;
+}
+
+
 
 .container {
-  margin: 8px;
-  
+  margin: 10px;
 }
 
-.js-employeeForm-add {
-    /* padding: 10px; */
-} 
-
 .total {
+  display: inline-block;
   float: right;
+  padding: 10px;
 }
