@@ -17,6 +17,7 @@ function deleteEmployee() {
     employeeArray.splice(employeeIndex, 1);
 
     render();
+    console.log('Employee Array:', employeeArray);
 }
 
 function submitEmployee(event) {
