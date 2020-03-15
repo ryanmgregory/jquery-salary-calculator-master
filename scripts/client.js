@@ -10,11 +10,14 @@ function init() {
 }
 
 function deleteEmployee() {
+    // console.log('delete', event);
     console.log('DELETE:', this);
-    // $(this).parent().parent().remove();
-    const employeeIndex = $(this).data('index');
+    // $(this).parent().parent().remove();  Does not affect [] only DOM.
+    // $(this).data('index'); WILL GIVE BACK ALL DATA need to SPECIFY:
+    const employeeIndex = $(this).data('index'); //specify
     console.log('deleted:', employeeIndex);
-    employeeArray.splice(employeeIndex, 1);
+
+    employeeArray.splice(employeeIndex, 1);   // affect [].
 
     render();
     console.log('Employee Array:', employeeArray);
@@ -49,7 +52,7 @@ function render() {
         <td>${individualEmployee.idNumber}</td>
         <td>${individualEmployee.title}</td>
         <td>$${individualEmployee.annualSalary}</td>
-        <td><button class="js-btn-delete" data-index="${i}">Delete Employee</td>
+        <td><button class="js-btn-delete" data-index="${i}">Delete</td>
         </tr>
         `);
     }
