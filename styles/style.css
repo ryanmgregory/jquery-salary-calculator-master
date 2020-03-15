@@ -27,10 +27,11 @@ h1, h2 {
   font-size: medium;
   background-color: rgb(217, 226, 217);
   border: black solid 1px;
-  border-radius: 4px;
-  margin-top: 10px;
+  border-radius: 3px;
+  margin-top: 12px;
   padding: 2px 24px;
   float: right;
+  cursor: pointer;
 }
 
 
@@ -51,6 +52,7 @@ h1, h2 {
   font-size: small;
   background-color: rgb(217, 226, 217);
   border: black solid 1px;
-  border-radius: 4px;
-  padding: 2px 18px;
+  border-radius: 3px;
+  padding: 2px 20px;
+  cursor: pointer;
 }
