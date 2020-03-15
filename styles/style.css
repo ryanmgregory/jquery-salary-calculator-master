@@ -26,3 +26,10 @@ h1, h2 {
   margin-bottom: 30px;
 }
 
+.vr_2x {
+  margin-bottom: 60px;
+}
+
+.vr_children * {
+  padding: 5px 25px 5px 2px;
+}
