@@ -36,6 +36,7 @@ function submitEmployee(event) {
     };
     employeeArray.push(employeeObject);
     console.log('Employees', employeeArray)
+    emptyInputFields();
     render();
 }
 
@@ -58,4 +59,13 @@ function render() {
     }
 
     $('.js-total-cost').text(`$${totalCost}`);
+}
+
+function emptyInputFields() {
+    console.log('in emptyInputFields');
+    $('.js-input-firstName').val('');
+    $('.js-input-lastName').val('');
+    $('.js-input-employeeID').val('');
+    $('.js-input-title').val('');
+    $('.js-input-salary').val('');
 }
