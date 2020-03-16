@@ -14,8 +14,15 @@ header {
 }
 
 h1, h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 400;
+}
+
+input {
+height: 18px;
+margin: 0 4px;
+border: 1px solid black;
+text-indent: 0.3rem;
 }
 
 table {
@@ -27,12 +34,15 @@ th {
   background-color: rgb(187, 218, 187);
   font-weight: 350;
   text-align: left; 
+  text-indent: 0.3rem;
 }
 
 td, th {
   border: 1px solid black;
-  
+  text-indent: 0.3rem;
 }
+
+
 
 .container {
   margin: 10px;
@@ -51,11 +61,11 @@ td, th {
 }
 
 .vr {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .vr_2x {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .vr_children * {
@@ -69,4 +79,10 @@ td, th {
   border-radius: 3px;
   padding
   cursor: pointer;
+}
+
+.boldAlign {
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
 }
