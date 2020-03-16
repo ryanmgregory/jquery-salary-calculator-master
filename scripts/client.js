@@ -57,7 +57,6 @@ function render() {
         </tr>
         `);
     }
-
     $('.js-total-cost').text(`$${totalCost}`);
 }
 
