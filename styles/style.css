@@ -42,8 +42,13 @@ td, th {
   text-indent: 0.3rem;
 }
 
+
 tbody>tr>:nth-child(5){
   text-align: right;
+}
+
+tbody>:nth-child(even){
+  background-color: rgb(238, 244, 238);
 }
 
 .container {
