@@ -43,7 +43,6 @@ td, th {
   font-size: 15px;
 }
 
-
 tbody>tr>:nth-child(5){
   text-align: right;
 }
