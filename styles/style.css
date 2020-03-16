@@ -42,7 +42,9 @@ td, th {
   text-indent: 0.3rem;
 }
 
-
+tbody>tr>:nth-child(5){
+  text-align: right;
+}
 
 .container {
   margin: 10px;
